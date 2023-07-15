@@ -59,7 +59,7 @@ public class ViewLocation extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Nextbillion.getInstance(getApplicationContext(), "b98e9dd2f9414231bae19340b76feff0");//go to nextbillion.ai
+        Nextbillion.getInstance(getApplicationContext(), "");//go to nextbillion.ai
         setContentView(R.layout.activity_view_location);
         origin = Point.fromLngLat(-82.457176, 27.950575);
         Bundle bundle = getIntent().getExtras();
